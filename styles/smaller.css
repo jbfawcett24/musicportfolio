@@ -344,6 +344,10 @@ footer img:hover {
   grid-column: 1/2;
 }
 
+.bio-container-2-img {
+  width: 500px;
+}
+
 /* Videos Page */
 .videos-page header {
   height: 500px; /* Adjust header height */
