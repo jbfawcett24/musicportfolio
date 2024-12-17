@@ -199,7 +199,7 @@ header p {
   /* margin-top: 10%; */
   /* margin-bottom: 35px; */
   padding: 150px;
-  background-color: #eaf5e3;
+  background: rgb(155 174 147);
 }
 .div2 a {
   font-size: 40px;
@@ -218,13 +218,14 @@ header p {
   align-items: center;
 }
 .links a {
-  z-index: 1;
+  z-index: 2;
   text-align: center;
   /* font-family: "Playfair Display", serif; */
-  text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.7);
-  filter: brightness(0.6);
+  /* text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.7); */
+  /* filter: brightness(0.6); */
   transition: filter 0.3s ease;
   color: white;
+  filter: brightness(1);
 }
 
 .links a:hover {
@@ -237,7 +238,7 @@ header p {
   grid-column: 1/2;
   border-radius: 4px;
   filter: brightness(0.6);
-  color: white;
+
   transition: filter 0.3s ease;
 }
 
@@ -461,4 +462,84 @@ footer img:hover {
   .photo-gallery h2 {
     font-size: 1.8rem;
   }
+}
+
+/* Contact Section */
+.contact-container {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 4rem;
+  background-color: #81b5b3;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-container h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.contact-container p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+/* Form Styling */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-header-img {
+  object-position: 10% 27%;
+}
+
+.form-group {
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #81b5b3;
+  outline: none;
+}
+
+.submit-btn {
+  display: inline-block;
+  background-color: #147a77;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0f5a57;
+  transform: scale(1.05);
 }
