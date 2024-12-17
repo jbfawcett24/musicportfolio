@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michael Shoaf | Photo Gallery</title>
+    <link rel="stylesheet" href="./styles/smaller.css" />
+    <link rel="stylesheet" href="./styles/bigger.css" />
+    <link rel="stylesheet" href="./styles/photogallery.css" />
+  </head>
+  <body class="gallery-page">
+    <!-- Header (Reused from Existing Code) -->
+    <header>
+      <div class="title">
+        <h1>Michael Shoaf</h1>
+        <h2>Photo Gallery</h2>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle Navigation">
+        <svg class="menu" viewBox="0 0 100 80" width="40" height="40">
+          <rect width="100" height="15" rx="10"></rect>
+          <rect y="30" width="100" height="15" rx="10"></rect>
+          <rect y="60" width="100" height="15" rx="10"></rect>
+        </svg>
+      </button>
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="biography.html">Biography</a></li>
+          <li><a href="photogallery.html">Photo Gallery</a></li>
+          <li><a href="videos.html">Videos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <img
+      class="header-image"
+      src="images/NUOVA Flight A-3442.jpg"
+      alt="Hero Image, Michael Shoaf Headshot"
+    />
+    </header>
+
+    <!-- Main Section for Photo Gallery -->
+    <main>
+      <section class="photo-gallery">
+        <h2>My Performances</h2>
+        <div class="gallery-container">
+          <!-- Add images here -->
+          <div class="gallery-item">
+            <img src="images/photo1.jpg" alt="Performance 1" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/photo2.jpg" alt="Performance 2" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/photo3.jpg" alt="Performance 3" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/photo4.jpg" alt="Performance 4" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/photo5.jpg" alt="Performance 5" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/photo6.jpg" alt="Performance 6" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer (Reused from Existing Code) -->
+    <footer>
+      <a href="https://instagram.com"
+        ><img src="images/instagram-icon-icon-lg.png" alt="Instagram Logo"
+      /></a>
+      <a href="https://facebook.com"
+        ><img src="images/facebook.png" alt="Facebook Logo"
+      /></a>
+      <a href="contact.html">Contact Me</a>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
