@@ -44,7 +44,7 @@ body {
 .nav-menu {
   display: none;
   position: fixed;
-  top: 60px; /* Adjust to position below the hamburger icon */
+  top: 75px; /* Adjust to position below the hamburger icon */
   right: 20px; /* Align with the menu button */
   background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
   padding: 15px;
