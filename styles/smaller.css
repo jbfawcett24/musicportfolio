@@ -558,3 +558,43 @@ textarea:focus {
   background-color: #0f5a57;
   transform: scale(1.05);
 }
+
+@media screen and (max-width: 600px) {
+  header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 1fr;
+  }
+  .title {
+    margin: 2% 0 0 2%;
+    max-width: 80%;
+  }
+  .div1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0;
+  }
+  .bio {
+    padding-top: 5%;
+  }
+  .bio > h3 {
+    margin: 0;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .hero-img-quote{
+    width: 100%;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    text-align: center;
+  }
+  .testimonials {
+    margin-bottom: 0;
+    row-gap: 0;
+  }
+  .div2 {
+    margin: 0;
+    flex-direction: column;
+  }
+}
