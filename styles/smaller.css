@@ -596,4 +596,31 @@ textarea:focus {
     margin: 0;
     flex-direction: column;
   }
+  .nav-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    border-radius: 0;
+  }
+  .nav-menu ul {
+    margin-left: 2%;
+  }
+  .menu-toggle{
+    top: 10px;
+  }
+  .header-img {
+    position: absolute;
+  }
+  .bio-body {
+    width: 100%;
+  }
+  .bio-essay-container {
+    display: block;
+  }
+  .bio-container-2-img {
+    display: none;
+  }
 }
