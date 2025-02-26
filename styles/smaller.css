@@ -620,8 +620,29 @@ textarea:focus {
   }
   .bio-essay-container {
     display: block;
+    margin-top: 0;
+    padding-top: 10px;
   }
+  .bio-essay-container > div {
+    margin: 0;
+    padding: 0;
+  }
+  
   .bio-container-2-img {
     display: none;
+  }
+  footer {
+    height: 50px;
+    display: flex;
+    padding: 0;
+  }
+  footer > a > img{
+    padding: 0;
+    height: 40px;
+    margin: 0;
+  }
+  footer > a
+  {
+    height: 40px;
   }
 }
